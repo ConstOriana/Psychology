@@ -1,0 +1,1460 @@
+@font-face {
+  font-family: adobe-font;
+  src: url(./fonts/Adobe\ Caslon\ Pro\ Semibold.ttf);
+}
+
+@font-face {
+  font-family: massimo-font;
+  src: url(./fonts/Massimo-Light.ttf);
+}
+
+*{
+  color: #414141;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.language-active{
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  border: 3px solid #414141;
+  font-size: 2vh;
+}
+
+.language-deactive{
+  background-color: transparent;
+  border: none;
+  font-size: 2vh;
+}
+
+.language-deactive:hover{
+  background-color: #C7C7C7;
+  transition: .5s;
+}
+
+.presentation-data, .presentation-data-treatment{
+  width: 150vh;
+}
+
+.menu-section{
+  position:fixed;
+  z-index: 1000;
+  background-color: white;
+  margin-top: -10px;
+}
+
+.hr-divider, .hr-divider-crooked-left, .hr-divider-approach-section{
+  width: 150vh;
+}
+
+.hr-divider-crooked-left{
+  margin-left: 240px;
+}
+
+
+.presentation-data, .home-video{
+  width: 150vh;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.presentation-data-home{
+  width: 150vh;
+}
+
+.hr-treatment{
+  width: 120vh;
+  margin-top: -30px;
+}
+
+.therapy-type{
+float: left;
+font-size: large;
+text-align: right;
+}
+
+.personal-info{
+ float: right;
+ font-size: smaller;
+ text-align: right;
+}
+
+nav{
+  margin-left: -40px;
+}
+
+.navbar-items{
+  display: flex;
+  width: 100vh;
+  justify-content: space-between;
+  margin-left: 360px;
+  margin-right: 400px;
+  padding-bottom: 25px;
+}
+
+.no-underlined-links{
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.home-video{
+  margin-top: 250px;
+  animation-duration: 3s;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.above-words, .below-words{
+  color: white;
+  width: 150vh;
+  letter-spacing: 5px;
+}
+
+.above-words{
+  font-size: 3vh;
+  margin-bottom: 100px;
+  margin-top: 220px;
+  animation-duration: 1.5s;
+}
+
+.below-words{
+  font-size: 9vh;
+  margin-top: 420px;
+  animation-duration: 2.5s;
+}
+
+.about-me-container, .contact-me-container, .my-approach-container, .contact-me-container-my-approach{
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-container{
+  margin-left: -45px;
+}
+
+.about-me-padding{
+  padding: 2vh;
+  margin-top: -50px;
+}
+
+.about-me-text{
+  font-size: medium;
+  width: 50vh;
+}
+
+.my-approach-container{
+  width: 120vh;
+  margin-left: 280px;
+}
+
+.my-approach-text{
+  width: 100vh;
+  margin-left: 20px;
+}
+
+.read-more-button{
+  border: none;
+  background-color: transparent;
+  font-size: medium;
+}
+
+.specializations-title{
+  margin-left: 180px;
+  font-size: 5vh;
+}
+
+.div-helper{
+  margin-top: -25px;
+}
+
+.articles-container{
+  margin-right: 100px;
+}
+
+.articles {
+  width: 30vh;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 185px;
+  margin-bottom: 5vh
+}
+
+.articles-titles{
+  font-style: italic;
+  font-size: xx-large;
+  justify-content: flex-start;
+}
+
+.div-helper-underline{
+  margin-top: -35px;
+}
+
+.adobe-font{
+  font-family: adobe-font;
+}
+
+.massimo-font, .massimo-font-bold{
+  font-family: massimo-font;
+}
+
+.massimo-font-bold{
+  font-weight: 900;
+}
+
+.subtitle{
+  font-size: 5vh;
+}
+
+.subtitle-my-approach{
+  margin-left: 295px;
+}
+
+.article-my-approach{
+  width: 50vh;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.my-approach-section{
+  width: 120vh;
+}
+
+.resources-title-container, .treatment-title-container{
+  height: 36vh;
+  background-color: #414141;
+  margin-top: 300px;
+  width: 150vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+}
+
+.resources-title, .treatment-title{
+  display: flex;
+  justify-content: left;
+  margin-left: 50px;
+  color: white;
+  margin-top: 100px;
+  font-size: 5.5vh;
+  width: 70vh;
+  animation-duration: 6s;
+}
+
+.treatment-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.treatment-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resources-section{
+  width: 120vh;
+  margin-left: 320px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resources-links{
+  margin-top: 5px;
+}
+
+.treatment-article-agenda, .treatment-article-duration, .treatment-article-payment{
+  width: 120vh;
+}
+
+.treatment-title-article, .resources-section-title{
+  color: #414141;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.resources-section-title{
+  margin-bottom: -2px;
+}
+
+.resources-section-article{
+  width: 60vh;
+}
+
+.contact-me-container{
+  width: 175vh;
+}
+
+.contact-title, .contact-title-my-approach{
+  margin-left: 200px;
+  font-size: xx-large;
+}
+
+.contact-logos{
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.contact-text{
+  margin-left: 20px;
+}
+
+.contact-logos-imgs{
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+}
+
+.footer{
+  height: 15vh;
+  background-color: #414141;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -6px;
+  margin-top: 50px;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: center;
+  color: #C7C7C7;
+}
+
+.bottomMenu{
+  width: 400px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Querys */
+
+/* Desktop */
+@media only screen and (min-width: 992px) and (max-width: 1410px){
+
+  .language-active, .language-deactive{
+    font-size: 3vh;
+  }
+
+  .no-underlined-links{
+    font-size: 4vh;
+  }
+
+  main, .menu-section{
+    margin-left: 250px; 
+    margin-right: 250px; 
+  }
+
+  .centered{
+    margin-left: 400px
+  }
+
+  .therapy-type{
+    font-size: xx-large;
+  }
+
+  .personal-info{
+    font-size: x-large;
+  }
+
+  .navbar-items{
+    width: 60%;
+    margin-left: 300px;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  .home-video{
+    margin-top: 400px;
+    height: 700px;
+  }
+
+  .above-words{
+    font-size: 8.5vh;
+    margin-top: 350px;
+  }
+
+  .below-words{
+    font-size: 10vh;
+    margin-top: 600px;
+  }
+
+  .about-me-container {
+    margin-left: 530px;
+  }
+
+  .about-me-text{
+    font-size: xx-large;
+  }
+
+  .bottomMenu{
+    width: 600px;
+    height: 800px;
+    margin-top: 100px;
+  }
+
+  .read-more-button{
+    font-size: 3.5vh;
+  }
+
+  .subtitle{
+    font-size: 7vh;
+  }
+
+  .specializations-title {
+    font-size: 7vh;
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  .articles-titles{
+    width: 100%;
+    font-size: 6vh;
+    margin-right: 330px;
+  }
+
+  .articles-container{
+    width: 100vh;
+  }
+
+  .articles{
+    width: 100%;
+  }
+
+  .div-helper-underline {
+    margin-left: -450px;    
+  }
+
+  .contact-title {
+    font-size: 7vh;
+    margin-left: 190px;
+    width: 100%;
+  }
+
+  .contact-img{
+    width: 300px;
+    height: 500px;
+  }
+
+  .contact-me-container {
+    width: 100vh;
+    margin-left: 270px;
+  }
+
+  .contact-title-my-approach{
+    font-size: 7vh;
+    margin-left: 450px;
+  }
+
+  .contact-me-container-my-approach{
+    width: 100vh;
+    margin-left: 530px;
+  }
+
+  .contact-logos{
+    width: 100%;
+  }
+
+  .contact-logos-imgs{
+    width: 100px;
+    height: 100px;    
+  }
+
+  .massimo-font{
+    font-size: x-large;
+  }
+
+  .article-home-text{
+    font-size: xx-large;
+  }
+
+  .contact-text{
+    font-size: 4vh;
+  }
+
+  .footer{
+    width: 279vh;
+  }
+
+  .hr-divider{
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+
+  .resources-title-container{
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .treatment-section{
+    margin-left: 770px;
+  }
+
+  .treatment-title-article{
+    font-size: 6vh;
+    margin-top: 50px;
+  }
+
+  .treatment-text{
+    font-size: xx-large;
+  }
+
+  .presentation-data-treatment{
+    margin-left: 450px;
+  }
+
+  .resources-section-title{
+    font-size: 6vh;
+  }
+
+  .resources-links{
+    font-size: 4vh;
+  }
+
+  .my-approach-container{
+    width: 150vh;
+    margin-left: 430px;
+  }
+
+  .subtitle-my-approach{
+    margin-left: 450px;
+    width: 100%;
+  }
+
+  .my-approach-text{
+    font-size: xx-large;
+  }
+
+  .hr-divider-approach-section{
+    margin-left: 450px;
+  }
+
+  .treatment-title, .resources-title{
+    font-size: 6vh;
+    margin-top: 125px;
+  }
+
+  .treatment-title-container, .resources-title-container{
+    margin-left: 450px;
+    height: 400px;
+  }
+
+  .resources-section {
+    margin-left: 250px;
+  }
+
+  .resources-section-article {
+    width: 70vh;
+  }
+
+  .approach-img{
+    margin-left: 450px;
+    height: 450px;
+  }
+
+  .resources-title{
+    margin-top: 200px;
+    font-size: 7vh;
+  }
+
+}
+
+
+
+/* Tablet */
+
+@media only screen and (min-width: 830px) and (max-width: 992px) {
+
+  .no-underlined-links{
+    font-size: 4vh;
+  }
+
+  .navbar-items{
+    width: 60%
+  }
+
+  main, .menu-section{
+    margin-left: 200px;
+    margin-right: 250px;
+  }
+
+  .language-active, .language-deactive{
+    font-size: 4vh;
+  }
+
+  .hr-divider-crooked-left{
+    margin-left: 300px
+  }
+
+  .therapy-type{
+    font-size: xx-large;
+  }
+
+  .personal-info{
+    font-size: x-large;
+  }
+
+  nav{
+    width: 100%;
+    margin-left: -100px;
+  }
+
+  .home-video{
+    margin-top: 400px;
+    height: 700px;
+  }
+
+  .above-words{
+    font-size: 8.5vh;
+    margin-top: 350px;
+  }
+
+  .below-words{
+    font-size: 10vh;
+    margin-top: 600px;
+  }
+
+  .about-me-container {
+    margin-left: 550px;
+  }
+
+  .second{
+    display: none;
+  }
+
+  .bottomMenu{
+    width: 600px;
+    height: 800px;
+    margin-top: 200px;
+  }
+
+  .read-more-button{
+    font-size: 5vh;
+  }
+
+  .subtitle{
+    font-size: 8vh;
+  }
+
+  .specializations-title {
+    font-size: 7vh;
+    width: 150%;
+    margin-left: 200px;
+  }
+
+  .articles-titles{
+    width: 100%;
+    font-size: 7vh;
+    margin-right: 330px;
+  }
+
+  .articles-container{
+    width: 100vh;
+  }
+
+  .articles{
+    width: 100%;
+  }
+
+  .div-helper-underline {
+    margin-left: -450px;    
+  }
+
+  .contact-title {
+    font-size: 8vh;
+    margin-left: 190px;
+    width: 100%;
+  }
+
+  .contact-img{
+    width: 300px;
+    height: 500px;
+  }
+
+  .contact-me-container {
+    width: 100vh;
+    margin-left: 270px;
+  }
+
+  .contact-title-my-approach{
+    font-size: 7vh;
+    margin-left: 450px;
+  }
+
+  .contact-me-container-my-approach{
+    width: 100vh;
+    margin-left: 530px;
+  }
+
+  .contact-logos{
+    width: 100%;
+  }
+
+  .contact-logos-imgs{
+    width: 100px;
+    height: 100px;    
+  }
+
+  .massimo-font{
+    font-size: x-large;
+  }
+
+  .article-home-text{
+    font-size: 5vh;
+  }
+
+  .contact-text{
+    font-size: 4vh;
+  }
+
+  .footer{
+    width: 279vh;
+  }
+
+  .hr-divider{
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+
+  .resources-title-container{
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .treatment-section{
+    margin-left: 700px;
+  }
+
+  .treatment-title-article{
+    font-size: 6vh;
+    margin-top: 50px;
+  }
+
+  .treatment-text{
+    font-size: xx-large;
+  }
+
+  .presentation-data-treatment{
+    margin-left: 400px;
+  }
+
+  .resources-section-title{
+    font-size: 6vh;
+  }
+
+  .resources-links{
+    font-size: 4vh;
+  }
+
+  .my-approach-container{
+    width: 150vh;
+    margin-left: 380px;
+  }
+
+  .subtitle-my-approach{
+    margin-left: 400px;
+    width: 100%;
+  }
+
+  .my-approach-text{
+    font-size: xx-large;
+  }
+
+  .hr-divider-approach-section{
+    margin-left: 400px;
+  }
+
+  .treatment-title, .resources-title{
+    font-size: 6vh;
+    margin-top: 150px;
+  }
+
+  .treatment-title-container, .resources-title-container{
+    margin-left: 400px;
+    height: 400px;
+  }
+
+  .resources-section {
+    margin-left: 250px;
+  }
+
+  .resources-section-article {
+    width: 70vh;
+  }
+
+  .approach-img{
+    margin-left: 400px;
+    height: 450px;
+  }
+
+  .resources-title{
+    margin-top: 200px;
+    font-size: 7vh;
+  }
+
+  .about-me-text{
+    font-size: 4.5vh;
+  }
+
+ 
+}
+
+/* Mini Tablet */
+@media only screen and (min-width: 480px) and (max-width: 830px) {
+
+  .language-active, .language-deactive{
+    font-size: 4vh;
+  }
+
+  .no-underlined-links{
+    font-size: 4vh;
+  }
+
+  .navbar-items{
+    width: 60%
+  }
+
+  main, .menu-section{
+    margin-left: 0px;
+    margin-right: 90px;
+  }
+  
+  .hr-divider-crooked-left{
+    margin-left: 310px
+  }
+
+  .therapy-type{
+    font-size: 5vh;
+  }
+
+  .personal-info{
+    font-size: 4.5vh;
+    margin-left: 100px;
+  }
+
+  nav{
+    width: 100%;
+    margin-left: -115px;
+  }
+
+  .home-video{
+    margin-top: 400px;
+    height: 700px;
+  }
+
+  .above-words{
+    font-size: 8.5vh;
+    margin-top: 350px;
+  }
+
+  .below-words{
+    font-size: 10vh;
+    margin-top: 600px;
+  }
+
+  .about-me-container {
+    margin-left: 670px;
+  }
+
+  .second{
+    display: none;
+  }
+
+  .bottomMenu{
+    width: 600px;
+    height: 800px;
+    margin-top: 130px;
+  }
+
+  .read-more-button{
+    font-size: 5vh;
+  }
+
+  .subtitle{
+    font-size: 8vh;
+  }
+
+  .specializations-title {
+    font-size: 7vh;
+    width: 200%;
+    margin-left: 200px;
+  }
+
+  .articles-titles{
+    width: 100%;
+    font-size: 6vh;
+    margin-right: 330px;
+  }
+
+  .articles-container{
+    width: 100vh;
+    margin-left: 20px;
+  }
+
+  .articles{
+    width: 100%;
+  }
+
+  .div-helper-underline {
+    margin-left: -450px;    
+  }
+
+  .contact-title {
+    font-size: 8vh;
+    margin-left: 190px;
+    width: 150%;
+  }
+
+  .contact-img{
+    width: 300px;
+    height: 500px;
+  }
+
+  .contact-me-container {
+    width: 100vh;
+    margin-left: 350px;
+  }
+
+  .contact-title-my-approach{
+    font-size: 7vh;
+    margin-left: 250px;
+    width: 100%;
+  }
+
+  .contact-me-container-my-approach{
+    width: 100vh;
+    margin-left: 400px;
+  }
+
+  .contact-logos{
+    width: 100%;
+  }
+
+  .contact-logos-imgs{
+    width: 100px;
+    height: 100px;    
+  }
+
+  .massimo-font{
+    font-size: x-large;
+  }
+
+  .article-home-text{
+    font-size: 5vh;
+  }
+
+  .contact-text{
+    font-size: 5vh;
+  }
+
+  .footer{
+    width: 220vh;
+  }
+
+  .hr-divider{
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+
+  .resources-title-container{
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .treatment-section{
+    margin-left: 670px;
+  }
+
+  .treatment-title-article{
+    font-size: 8vh;
+    margin-top: 40px;
+  }
+
+  .treatment-text{
+    font-size: 5vh;
+  }
+
+  .presentation-data-treatment{
+    margin-left: 200px;
+  }
+
+  .resources-section-title{
+    font-size: 8vh;
+  }
+
+  .resources-links{
+    font-size: 5vh;
+  }
+
+  .my-approach-container{
+    width: 150vh;
+    margin-left: 180px;
+  }
+
+  .subtitle-my-approach{
+    margin-left: 200px;
+    width: 100%;
+  }
+
+  .my-approach-text{
+    font-size: 5vh;
+  }
+
+  .hr-divider-approach-section{
+    margin-left: 200px;
+  }
+
+  .treatment-title, .resources-title{
+    font-size: 6.5vh;
+    margin-top: 150px;
+    width: 50%;
+  }
+
+  .treatment-title-container, .resources-title-container{
+    margin-left: 200px;
+    height: 420px;
+  }
+
+  .resources-section {
+    margin-left: 20px;
+  }
+
+  .resources-section-article {
+    width: 70vh;
+  }
+
+  .approach-img{
+    margin-left: 200px;
+    height: 450px;
+  }
+
+  .resources-title{
+    margin-top: 200px;
+    font-size: 7vh;
+  }
+
+  .about-me-text{
+    font-size: 4.5vh;
+  }  
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+
+  .language-active, .language-deactive{
+    font-size: 4vh;
+  }
+  
+  .no-underlined-links{
+    font-size: 4vh;
+  }
+
+  .navbar-items{
+    width: 70%
+  }
+
+  main, .menu-section{
+    margin-left: -50px;
+  }
+  
+  .hr-divider-crooked-left{
+    margin-left: 370px
+  }
+
+  .therapy-type{
+    font-size: 5vh;
+  }
+
+  .personal-info{
+    font-size: 5vh;
+    margin-left: 100px;
+  }
+
+  nav{
+    width: 100%;
+    margin-left: -170px;
+  }
+
+  .home-video{
+    margin-top: 400px;
+    height: 700px;
+  }
+
+  .above-words{
+    font-size: 8.5vh;
+    margin-top: 350px;
+  }
+
+  .below-words{
+    font-size: 10vh;
+    margin-top: 600px;
+  }
+
+  .about-me-container {
+    margin-left: 680px;
+  }
+
+  .second{
+    display: none;
+  }
+
+  .bottomMenu{
+    width: 600px;
+    height: 800px;
+    margin-top: 350px;
+  }
+
+  .read-more-button{
+    font-size: 6vh;
+  }
+
+  .subtitle{
+    font-size: 8vh;
+  }
+
+  .specializations-title {
+    font-size: 7.5vh;
+    width: 200%;
+    margin-left: 200px;
+  }
+
+  .articles-titles{
+    width: 100%;
+    font-size: 7vh;
+    margin-right: 330px;
+  }
+
+  .articles-container{
+    width: 100vh;
+    margin-left: 20px;
+  }
+
+  .articles{
+    width: 100%;
+  }
+
+  .div-helper-underline {
+    margin-left: -500px;    
+  }
+
+  .contact-title {
+    font-size: 7.5vh;
+    margin-left: 190px;
+    width: 100%;
+  }
+
+  .contact-img{
+    width: 300px;
+    height: 500px;
+  }
+
+  .contact-me-container {
+    width: 100vh;
+    margin-left: 350px;
+  }
+
+  .contact-title-my-approach{
+    font-size: 7.5vh;
+    margin-left: 150px;
+    width: 100%;
+  }
+
+  .contact-me-container-my-approach{
+    width: 100vh;
+    margin-left: 300px;
+  }
+
+  .contact-logos{
+    width: 100%;
+  }
+
+  .contact-logos-imgs{
+    width: 100px;
+    height: 100px;    
+  }
+
+  .massimo-font{
+    font-size: x-large;
+  }
+
+  .article-home-text{
+    font-size: 6vh;
+  }
+
+  .contact-text{
+    font-size: 5vh;
+  }
+
+  .footer{
+    width: 195vh;
+  }
+
+  .hr-divider{
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+
+  .resources-title-container{
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .treatment-section{
+    margin-left: 630px;
+  }
+
+  .treatment-title-article{
+    font-size: 8vh;
+    margin-top: 50px;
+  }
+
+  .treatment-text{
+    font-size: 6vh;
+  }
+
+  .presentation-data-treatment{
+    margin-left: 150px;
+  }
+
+  .resources-section-title{
+    font-size: 8vh;
+  }
+
+  .resources-links{
+    font-size: 5vh;
+  }
+
+  .my-approach-container{
+    width: 150vh;
+    margin-left: 130px;
+  }
+
+  .subtitle-my-approach{
+    margin-left: 150px;
+    width: 200%;
+  }
+
+  .my-approach-text{
+    font-size: 6vh;
+  }
+
+  .hr-divider-approach-section{
+    margin-left: 150px;
+  }
+
+  .treatment-title, .resources-title{
+    font-size: 6vh;
+    margin-top: 135px;
+  }
+
+  .treatment-title-container, .resources-title-container{
+    margin-left: 150px;
+    height: 400px;
+  }
+
+  .resources-section {
+    margin-left: -20px;
+  }
+
+  .resources-section-article {
+    width: 70vh;
+  }
+
+  .approach-img{
+    margin-left: 150px;
+    height: 450px;
+  }
+
+  .resources-title{
+    margin-top: 200px;
+    font-size: 7vh;
+  }
+
+  .about-me-text{
+    font-size: 5vh;
+  } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home-Img */
+
+@media only screen and (min-width: 1390px) and (max-width: 1410px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+    margin-left: 350px;
+  }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1390px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 400px;
+  }
+}
+
+
+@media only screen and (min-width: 1175px) and (max-width: 1250px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 450px;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1175px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 500px;
+  }
+}
+
+@media only screen and (min-width: 930px) and (max-width: 1050px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 550px;
+  }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 930px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 600px;
+  }
+}
+
+@media only screen and (min-width: 831px) and (max-width: 840px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 650px;
+  }
+}
+
+@media only screen and (min-width: 725px) and (max-width: 831px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 450px;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 725px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 500px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 640px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 550px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 550px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 600px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px){
+
+  .above-words{
+    font-size: 4vh;
+  }
+
+  .centered{
+   margin-left: 550px;
+  }
+}
