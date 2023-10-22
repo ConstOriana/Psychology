@@ -1278,12 +1278,12 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 6vh;
-    margin-top: 135px;
+    margin-top: 180px;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 150px;
-    height: 400px;
+    height: 500px;
   }
 
   .resources-section {
