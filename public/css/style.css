@@ -413,7 +413,7 @@ nav{
   }
 
   .about-me-container {
-    margin-left: 530px;
+    margin-left: 670px;
   }
 
   .about-me-text{
@@ -564,12 +564,12 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 6vh;
-    margin-top: 125px;
+    margin-top: 150px;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 450px;
-    height: 400px;
+    height: 500px;
   }
 
   .resources-section {
@@ -620,7 +620,7 @@ nav{
   }
 
   .therapy-type{
-    font-size: xx-large;
+    font-size: 4vh;
   }
 
   .personal-info{
@@ -648,7 +648,7 @@ nav{
   }
 
   .about-me-container {
-    margin-left: 550px;
+    margin-left: 650px;
   }
 
   .second{
@@ -755,7 +755,7 @@ nav{
   }
 
   .treatment-section{
-    margin-left: 700px;
+    margin-left: 900px;
   }
 
   .treatment-title-article{
@@ -799,12 +799,12 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 6vh;
-    margin-top: 150px;
+    margin-top: 160px;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 400px;
-    height: 400px;
+    height: 500px;
   }
 
   .resources-section {
@@ -1045,7 +1045,7 @@ nav{
 
   .treatment-title-container, .resources-title-container{
     margin-left: 200px;
-    height: 420px;
+    height: 520px;
   }
 
   .resources-section {
@@ -1283,7 +1283,7 @@ nav{
 
   .treatment-title-container, .resources-title-container{
     margin-left: 150px;
-    height: 500px;
+    height: 550px;
   }
 
   .resources-section {
