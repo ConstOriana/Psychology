@@ -1108,18 +1108,18 @@ nav{
   }
 
   .home-video{
-    margin-top: 600px;
+    margin-top: 800px;
     height: 700px;
   }
 
   .above-words{
     font-size: 8.5vh;
-    margin-top: 550px;
+    margin-top: 750px;
   }
 
   .below-words{
     font-size: 12vh;
-    margin-top: 850px;
+    margin-top: 1050px;
   }
 
   .about-me-container {
@@ -1288,13 +1288,13 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 9.5vh;
-    margin-top: 190px;
+    margin-top: 350px;
     width: 50%;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 150px;
-    height: 900px;
+    height: 1150px;
   }
 
   .resources-section {
@@ -1311,7 +1311,7 @@ nav{
   }
 
   .resources-title{
-    margin-top: 400px;
+    margin-top: 600px;
     font-size: 10vh;
     width: 100%;
   }
@@ -1339,7 +1339,7 @@ nav{
 /* Style navigation menu links */
 .topnav a {
   color: #414141;
-  padding: 14px 16px;
+  padding: 50px;
   text-decoration: none;
   font-size: 6vh;
   font-weight: 900;
@@ -1351,6 +1351,7 @@ nav{
 
 /* Style the hamburger menu */
 .topnav a.icon {
+  color: #414141;
   background: white;
   display: block;
   position: absolute;
@@ -1359,20 +1360,12 @@ nav{
   font-size: 7vh;
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 /* Style the active link (or home/logo) */
 .active {
   background-color:transparent;
   color: transparent;
   border: none;
-}
-
-  
+}  
 
 }
 
