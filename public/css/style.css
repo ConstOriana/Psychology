@@ -1135,8 +1135,8 @@ nav{
   }
 
   .bottomMenu{
-    width: 800px;
-    height: 1000px;
+    width: 1000px;
+    height: 1200px;
     margin-top: 50px;
   }
 
@@ -1259,7 +1259,7 @@ nav{
   }
 
   .resources-section-title{
-    font-size: 10vh;
+    font-size: 12vh;
   }
 
   .resources-links{
