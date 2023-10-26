@@ -16,6 +16,8 @@
 
   <link rel="icon" type="image/x-icon" href="multimedia/favicon.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 <body>
@@ -65,6 +67,27 @@ psico.constanzaoriana@gmail.com
     </ul>
     <hr class="hr-divider-crooked-left">
   </nav>
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index-es.html">Inicio</a>    
+    <a href="index-es.html#about-me">Sobre mí</a>
+    <a href="my-approach-es.html">Mi Enfoque</a>
+    <a href="treatment-es.html">Tratamiento</a>
+    <a href="resources-es.html">Recursos</a>
+    <a href="index-es.html#contact">Contacto</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
 </div>
 
       <hr class="presentation-data">
@@ -143,5 +166,6 @@ psico.constanzaoriana@gmail.com
           <br>
          <div class="footer-text massimo-font">Psicoterapia Online | Constanza Oriana. Todos los derechos reservados.</div>
         </footer>
+        <script src="functions.js"></script>
 </body>
 </html>
