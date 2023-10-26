@@ -1108,18 +1108,18 @@ nav{
   }
 
   .home-video{
-    margin-top: 400px;
+    margin-top: 600px;
     height: 700px;
   }
 
   .above-words{
     font-size: 8.5vh;
-    margin-top: 350px;
+    margin-top: 550px;
   }
 
   .below-words{
     font-size: 12vh;
-    margin-top: 600px;
+    margin-top: 850px;
   }
 
   .about-me-container {
@@ -1324,9 +1324,11 @@ nav{
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #414141;
+  background-color: white;
   position: relative;
   display: block;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -1336,22 +1338,23 @@ nav{
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: #414141;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 6vh;
+  font-weight: 900;
   height: 80px;
   font-family: massimo-font;
   display: block;
-
+  margin-left: 100px;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #414141;
+  background: white;
   display: block;
   position: absolute;
-  right: 0;
+  margin-right: 200px;
   top: 0;
   font-size: 7vh;
 }
@@ -1364,8 +1367,9 @@ nav{
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color:white;
+  background-color:transparent;
   color: transparent;
+  border: none;
 }
 
   
