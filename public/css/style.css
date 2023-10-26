@@ -1,15 +1,13 @@
 @font-face {
   font-family: adobe-font;
   src: url(./fonts/Adobe\ Caslon\ Pro\ Semibold.ttf);
+  color: #414141;
 }
 
 @font-face {
   font-family: massimo-font;
   src: url(./fonts/Massimo-Light.ttf);
-}
-
-*{
-  color: #414141;
+  color: #414141;  
 }
 
 html{
@@ -1323,29 +1321,29 @@ nav{
     width: 200%;
   } 
 
-    /* Style the navigation menu */
+/* Style the navigation menu */
 .topnav {
-  display: flex;
-  justify-content: center;
   overflow: hidden;
-  background-color: white;
+  background-color: #414141;
+  position: relative;
+  display: block;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-/* .topnav #myLinks {
+.topnav #myLinks {
   display: none;
-} */
+}
 
 /* Style navigation menu links */
 .topnav a {
-  color: #414141;
-  background-color: white;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: massimo-font;
   font-size: 6vh;
+  height: 80px;
+  font-family: massimo-font;
   display: block;
-  margin-left: 400px;
+
 }
 
 /* Style the hamburger menu */
@@ -1355,19 +1353,20 @@ nav{
   position: absolute;
   right: 0;
   top: 0;
+  font-size: 7vh;
 }
 
 /* Add a grey background color on mouse-over */
-/* .topnav a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
-} */
+}
 
 /* Style the active link (or home/logo) */
-/* .active {
-  background-color: #04AA6D;
-  color: white;
-} */
+.active {
+  background-color:white;
+  color: transparent;
+}
 
   
 
