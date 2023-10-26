@@ -39,6 +39,10 @@ html{
   width: 150vh;
 }
 
+.topnav{
+  display: none;
+}
+
 .menu-section{
   position:fixed;
   z-index: 1000;
@@ -341,9 +345,6 @@ nav{
   width: 400px;
   height: 500px;
 }
-
-
-
 
 
 
@@ -1105,8 +1106,7 @@ nav{
   }
 
   nav{
-    width: 100%;
-    margin-left: -170px;
+    display: none;
   }
 
   .home-video{
@@ -1322,6 +1322,54 @@ nav{
     font-size: 8.5vh;
     width: 200%;
   } 
+
+    /* Style the navigation menu */
+.topnav {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+/* .topnav #myLinks {
+  display: none;
+} */
+
+/* Style navigation menu links */
+.topnav a {
+  color: #414141;
+  background-color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: massimo-font;
+  font-size: 6vh;
+  display: block;
+  margin-left: 400px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #414141;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+/* Style the active link (or home/logo) */
+/* .active {
+  background-color: #04AA6D;
+  color: white;
+} */
+
+  
 
 }
 
