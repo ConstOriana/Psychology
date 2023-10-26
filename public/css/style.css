@@ -317,8 +317,8 @@ nav{
 }
 
 .contact-logos-imgs{
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   padding: 20px;
 }
 
@@ -1080,7 +1080,7 @@ nav{
   }
   
   .no-underlined-links{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
   .navbar-items{
@@ -1096,7 +1096,7 @@ nav{
   }
 
   .therapy-type{
-    font-size: 5vh;
+    font-size: 6.5vh;
   }
 
   .personal-info{
@@ -1120,7 +1120,7 @@ nav{
   }
 
   .below-words{
-    font-size: 10vh;
+    font-size: 12vh;
     margin-top: 600px;
   }
 
@@ -1143,18 +1143,18 @@ nav{
   }
 
   .subtitle{
-    font-size: 8vh;
+    font-size: 12vh;
   }
 
   .specializations-title {
-    font-size: 7.5vh;
+    font-size: 10vh;
     width: 200%;
     margin-left: 200px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 7vh;
+    font-size: 10vh;
     margin-right: 330px;
   }
 
@@ -1172,7 +1172,7 @@ nav{
   }
 
   .contact-title {
-    font-size: 7.5vh;
+    font-size: 10vh;
     margin-left: 190px;
     width: 100%;
   }
@@ -1184,18 +1184,18 @@ nav{
 
   .contact-me-container {
     width: 100vh;
-    margin-left: 350px;
+    margin-left: 420px;
   }
 
   .contact-title-my-approach{
-    font-size: 7.5vh;
+    font-size: 10vh;
     margin-left: 150px;
-    width: 100%;
+    width: 150%;
   }
 
   .contact-me-container-my-approach{
     width: 100vh;
-    margin-left: 300px;
+    margin-left: 420px;
   }
 
   .contact-logos{
@@ -1212,15 +1212,15 @@ nav{
   }
 
   .article-home-text{
-    font-size: 6vh;
+    font-size: 8.5vh;
   }
 
   .contact-text{
-    font-size: 5vh;
+    font-size: 6vh;
   }
 
   .footer{
-    width: 195vh;
+    width: 550%
   }
 
   .hr-divider{
@@ -1238,12 +1238,12 @@ nav{
   }
 
   .treatment-title-article{
-    font-size: 8vh;
+    font-size: 10vh;
     margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: 6vh;
+    font-size: 8.5vh;
   }
 
   .presentation-data-treatment{
@@ -1251,16 +1251,19 @@ nav{
   }
 
   .resources-section-title{
-    font-size: 8vh;
+    font-size: 10vh;
   }
 
   .resources-links{
-    font-size: 5vh;
+    font-size: 8.5vh;
+    width: 150%;
   }
 
   .my-approach-container{
     width: 150vh;
-    margin-left: 130px;
+    margin-left: -50px;
+    display: inline-flex;
+    flex-wrap: wrap;
   }
 
   .subtitle-my-approach{
@@ -1269,7 +1272,7 @@ nav{
   }
 
   .my-approach-text{
-    font-size: 6vh;
+    font-size: 8vh;
   }
 
   .hr-divider-approach-section{
@@ -1277,13 +1280,14 @@ nav{
   }
 
   .treatment-title, .resources-title{
-    font-size: 6vh;
-    margin-top: 180px;
+    font-size: 9.5vh;
+    margin-top: 190px;
+    width: 50%;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 150px;
-    height: 550px;
+    height: 900px;
   }
 
   .resources-section {
@@ -1300,12 +1304,13 @@ nav{
   }
 
   .resources-title{
-    margin-top: 200px;
-    font-size: 7vh;
+    margin-top: 400px;
+    font-size: 10vh;
+    width: 100%;
   }
 
   .about-me-text{
-    font-size: 5vh;
+    font-size: 6vh;
   } 
 
 }
@@ -1418,7 +1423,7 @@ nav{
 @media only screen and (min-width: 640px) and (max-width: 725px){
 
   .above-words{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
   .centered{
@@ -1429,7 +1434,7 @@ nav{
 @media only screen and (min-width: 550px) and (max-width: 640px){
 
   .above-words{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
   .centered{
@@ -1440,7 +1445,7 @@ nav{
 @media only screen and (min-width: 480px) and (max-width: 550px){
 
   .above-words{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
   .centered{
@@ -1451,7 +1456,7 @@ nav{
 @media only screen and (min-width: 300px) and (max-width: 480px){
 
   .above-words{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
   .centered{
