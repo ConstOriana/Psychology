@@ -133,7 +133,7 @@ nav{
 
 .below-words{
   font-size: 9vh;
-  margin-top: 420px;
+  margin-top: 500px;
   animation-duration: 2.5s;
 }
 
@@ -1125,7 +1125,9 @@ nav{
   }
 
   .about-me-container {
-    margin-left: 680px;
+    margin-left: 180px;
+    display: inline-flex;
+    flex-wrap: wrap;
   }
 
   .second{
@@ -1133,17 +1135,18 @@ nav{
   }
 
   .bottomMenu{
-    width: 600px;
-    height: 800px;
-    margin-top: 350px;
+    width: 800px;
+    height: 1000px;
+    margin-top: 50px;
   }
 
   .read-more-button{
-    font-size: 6vh;
+    font-size: 8vh;
   }
 
   .subtitle{
     font-size: 12vh;
+    width: 150%;
   }
 
   .specializations-title {
@@ -1174,7 +1177,7 @@ nav{
   .contact-title {
     font-size: 10vh;
     margin-left: 190px;
-    width: 100%;
+    width: 150%;
   }
 
   .contact-img{
@@ -1220,7 +1223,8 @@ nav{
   }
 
   .footer{
-    width: 550%
+    width: 550%;
+    margin-left: -200px;
   }
 
   .hr-divider{
@@ -1310,7 +1314,8 @@ nav{
   }
 
   .about-me-text{
-    font-size: 6vh;
+    font-size: 8.5vh;
+    width: 200%;
   } 
 
 }
