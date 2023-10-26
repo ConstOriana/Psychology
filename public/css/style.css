@@ -1227,6 +1227,10 @@ nav{
     margin-left: -200px;
   }
 
+  .footer-text{
+    font-size: 5vh;
+  }
+
   .hr-divider{
     margin-right: 70px;
     margin-top: 100px;
@@ -1265,7 +1269,7 @@ nav{
 
   .my-approach-container{
     width: 150vh;
-    margin-left: -50px;
+    margin-left: 120px;
     display: inline-flex;
     flex-wrap: wrap;
   }
@@ -1277,6 +1281,7 @@ nav{
 
   .my-approach-text{
     font-size: 8vh;
+    width: 100%;
   }
 
   .hr-divider-approach-section{
