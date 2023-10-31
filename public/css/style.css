@@ -421,7 +421,7 @@ nav{
   }
 
   .home-video{
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .presentation-data-home{
@@ -430,13 +430,13 @@ nav{
   
 
   .above-words{
-    font-size: 30px;
-    margin-top: 250px;
+    font-size: 50px;
+    margin-top: 190px;
   }
 
   .below-words{
-    font-size: 40px;
-    margin-top: 400px;
+    font-size: 60px;
+    margin-top: 430px;
   }
 
   .about-me-container {
@@ -697,12 +697,12 @@ nav{
   
 
   .above-words{
-    font-size: 30px;
-    margin-top: 250px;
+    font-size: 50px;
+    margin-top: 150px;
   }
 
   .below-words{
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 400px;
   }
 
@@ -968,12 +968,12 @@ nav{
   
 
   .above-words{
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 250px;
   }
 
   .below-words{
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 400px;
   }
 
@@ -1242,17 +1242,6 @@ nav{
     width: 1000px;
   }
   
-
-  .above-words{
-    font-size: 30px;
-    margin-top: 250px;
-  }
-
-  .below-words{
-    font-size: 40px;
-    margin-top: 400px;
-  }
-
   .read-more-button{
     font-size: 70px;
     margin-left: 30px;
@@ -1475,6 +1464,17 @@ nav{
     display: none;
   }
 
+  .above-words{
+    font-size: 60px;
+    margin-top: 250px;
+  }
+
+  .below-words{
+    font-size: 80px;
+    margin-top: 400px;
+  }
+
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -1550,82 +1550,149 @@ nav{
 
 
   .centered{
-   margin-left: 400px;
+   margin-left: 120px;
   }
 }
 
 
 @media only screen and (min-width: 1175px) and (max-width: 1250px){
 
+  .above-words, .below-words{
+    width: 150%;
+  }
 
   .centered{
-   margin-left: 450px;
+   margin-left: 80px;
   }
 }
 
 @media only screen and (min-width: 1050px) and (max-width: 1175px){
 
+  .above-words, .below-words{
+    width: 180%;
+  }
+
   .centered{
-   margin-left: 500px;
+   margin-left: 70px;
   }
 }
 
 @media only screen and (min-width: 930px) and (max-width: 1050px){
 
+  .above-words, .below-words{
+    width: 180%;
+  }
 
   .centered{
-   margin-left: 550px;
+   margin-left: 110px;
   }
 }
 
 @media only screen and (min-width: 840px) and (max-width: 930px){
 
+  .above-words, .below-words{
+    width: 250%;
+  }
+
   .centered{
-   margin-left: 600px;
+   margin-left: 80px;
   }
 }
 
 @media only screen and (min-width: 831px) and (max-width: 840px){
 
+  .above-words, .below-words{
+    width: 250%;
+  }
+
 
   .centered{
-   margin-left: 650px;
+   margin-left: 130px;
   }
 }
 
 @media only screen and (min-width: 725px) and (max-width: 831px){
 
+  .above-words, .below-words{
+    width: 250%;
+  }
+
+  .below-words{
+    margin-left: -25px;
+  }
 
   .centered{
-   margin-left: 450px;
+   margin-left: 250px;
   }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 725px){
 
+  .above-words, .below-words{
+    width: 250%;
+  }
+
+  .below-words{
+    margin-left: -25px;
+  }
+
   .centered{
-   margin-left: 500px;
+   margin-left: 300px;
   }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 640px){
 
+  .above-words, .below-words{
+    width: 250%;
+  }
+
+  .below-words{
+    margin-left: -25px;
+  }
 
   .centered{
-   margin-left: 550px;
+   margin-left: 300px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 550px){
 
+  .above-words{
+    font-size:35px;
+  }
+
+  .above-words, .below-words{
+    width: 250%;
+  }
+
+  .below-words{
+    margin-left: -25px;
+  }
+
   .centered{
-   margin-left: 600px;
+   margin-left: 350px;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 480px){
 
-  .centered{
-   margin-left: 550px;
+  .above-words{
+    font-size: 50px;
+    margin-top: 150px;
   }
+
+  .above-words, .below-words{
+    width: 250%;
+  }
+
+  .below-words{
+    font-size: 70px;
+    margin-top: 500px;
+  }
+
+  .centered{
+   margin-left: 350px;
+  }
+
 }
