@@ -44,8 +44,8 @@ html{
   margin-top: -10px;
 }
 
-.hr-divider, .hr-divider-crooked-left, .hr-divider-approach-section{
-  /* margin-left: -50px; */
+.hr-divider{
+  margin-top: -20px;
 }
 
 .hr-divider-crooked-left{
@@ -1192,94 +1192,100 @@ nav{
 /* Mobile */
 @media only screen and (max-width: 480px) {
 
+   
   .language-active, .language-deactive{
-    font-size: 45px;
-  }
-  
-  .no-underlined-links{
-    font-size: 6vh;
+    font-size: 40px;
   }
 
-  .navbar-items{
-    width: 70%
+  .no-underlined-links{
+    font-size: 35px;
   }
 
   main, .menu-section{
-    margin-left: -50px;
+    margin-left: 50px; 
   }
-  
-  .hr-divider-crooked-left{
-    margin-left: 370px
-  }
+
 
   .therapy-type{
-    font-size: 6.5vh;
-  }
-
-  .personal-info{
-    font-size: 5vh;
-    margin-left: 100px;
+    font-size: 50px;
   }
 
   nav{
     display: none;
   }
 
-  .home-video{
-    margin-top: 600px;
-    height: 700px;
+  .presentation-data, .home-video{
+    width: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
+  .presentation-data{
+    margin-left: 250px;
+  }
+
+  .hr-helper{
+    margin-left: 300px;
+  }
+
+  .hr-divider{
+    width: 1000px;
+  }
+
+  .home-video{
+    margin-top: 250px;
+  }
+
+  .presentation-data-home{
+    width: 1000px;
+  }
+  
+
   .above-words{
-    font-size: 8.5vh;
-    margin-top: 550px;
+    font-size: 30px;
+    margin-top: 250px;
   }
 
   .below-words{
-    font-size: 12vh;
-    margin-top: 850px;
+    font-size: 40px;
+    margin-top: 400px;
   }
 
   .about-me-container {
-    margin-left: 180px;
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  .second{
-    display: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-right: 700px;
   }
 
   .bottomMenu{
-    width: 1000px;
-    height: 1200px;
-    margin-top: 50px;
+    width: 600px;
+    height: 800px;
+    margin-top: 300px;
   }
 
   .read-more-button{
-    font-size: 8vh;
+    font-size: 45px;
   }
 
   .subtitle{
-    font-size: 12vh;
-    width: 150%;
+    font-size: 70px;
   }
 
   .specializations-title {
-    font-size: 10vh;
-    width: 200%;
-    margin-left: 200px;
+    font-size: 70px;
+    width: 150%;
+    margin-left: 230px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 10vh;
+    font-size: 60px;
     margin-right: 330px;
   }
 
   .articles-container{
-    width: 100vh;
-    margin-left: 20px;
+    width: 900px;
   }
 
   .articles{
@@ -1287,13 +1293,13 @@ nav{
   }
 
   .div-helper-underline {
-    margin-left: -500px;    
+    margin-right: 700px;    
   }
 
   .contact-title {
-    font-size: 10vh;
-    margin-left: 190px;
-    width: 150%;
+    font-size: 70px;
+    margin-left: 230px;
+    width: 100%;
   }
 
   .contact-img{
@@ -1302,19 +1308,19 @@ nav{
   }
 
   .contact-me-container {
-    width: 100vh;
-    margin-left: 420px;
+    width: 900px;
+    margin-left: 280px;
   }
 
   .contact-title-my-approach{
-    font-size: 10vh;
-    margin-left: 150px;
-    width: 150%;
+    font-size: 70px;
+    margin-left: 300px;
+    width: 100%;
   }
 
   .contact-me-container-my-approach{
-    width: 100vh;
-    margin-left: 420px;
+    width: 900px;
+    margin-left: 350px;
   }
 
   .contact-logos{
@@ -1322,8 +1328,8 @@ nav{
   }
 
   .contact-logos-imgs{
-    width: 200px;
-    height: 200px;    
+    width: 100px;
+    height: 100px;    
   }
 
   .massimo-font{
@@ -1331,25 +1337,32 @@ nav{
   }
 
   .article-home-text{
-    font-size: 8.5vh;
+    font-size: 50px;
   }
 
   .contact-text{
-    font-size: 6vh;
+    font-size: 35px;
   }
 
   .footer{
-    width: 550%;
-    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: -15px;
+    padding: 20px;
+    width: 1560px;
   }
-
+  
   .footer-text{
-    font-size: 5vh;
+    color: #C7C7C7;
   }
 
   .hr-divider{
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .resources-title-container{
@@ -1358,87 +1371,96 @@ nav{
   }
 
   .treatment-section{
-    margin-left: 630px;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
   }
 
   .treatment-title-article{
-    font-size: 10vh;
+    font-size: 60px;
     margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: 8.5vh;
+    font-size: 50px;
+    width: 950px;
   }
 
   .presentation-data-treatment{
-    margin-left: 150px;
+    margin-left: 450px;
   }
 
   .resources-section-title{
-    font-size: 12vh;
+    font-size: 60px;
   }
 
   .resources-links{
-    font-size: 8.5vh;
-    width: 150%;
+    font-size: 50px;
   }
 
   .my-approach-container{
-    width: 150vh;
-    margin-left: 120px;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 280px;
   }
 
   .subtitle-my-approach{
-    margin-left: 150px;
-    width: 200%;
+    font-size: 70px;
+    margin-left: 300px;
+    width: 100%;
   }
 
   .my-approach-text{
-    font-size: 8vh;
-    width: 100%;
+    font-size: 50px;
   }
 
   .hr-divider-approach-section{
-    margin-left: 150px;
+    margin-left: 450px;
   }
 
   .treatment-title, .resources-title{
-    font-size: 9.5vh;
-    margin-top: 350px;
-    width: 50%;
+    font-size: 60px;
+    margin-top: 90px;
+    width: 750px;
   }
 
   .treatment-title-container, .resources-title-container{
-    margin-left: 150px;
-    height: 1150px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 420px;
   }
 
   .resources-section {
-    margin-left: -20px;
+    margin-left: 280px;
   }
 
   .resources-section-article {
-    width: 70vh;
+    width: 900px;
   }
 
   .approach-img{
-    margin-left: 150px;
-    height: 650px;
-    margin-top: 600px;
+    margin-left: 300px;
+    height: 450px;
   }
 
   .resources-title{
-    margin-top: 600px;
-    font-size: 10vh;
-    width: 100%;
+    margin-top: 180px;
+    font-size: 70px;
   }
 
   .about-me-text{
-    font-size: 8.5vh;
-    width: 200%;
-  } 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    width: 500px;
+  }
+
+  .second{
+    display: none;
+  }
 
 /* Style the navigation menu */
 .topnav {
@@ -1446,8 +1468,7 @@ nav{
   background-color: white;
   position: relative;
   display: block;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: -100px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -1458,9 +1479,9 @@ nav{
 /* Style navigation menu links */
 .topnav a {
   color: #414141;
-  padding: 50px;
+  padding: 30px;
   text-decoration: none;
-  font-size: 6vh;
+  font-size: 50px;
   font-weight: 900;
   height: 80px;
   font-family: massimo-font;
@@ -1476,7 +1497,7 @@ nav{
   position: absolute;
   margin-right: 200px;
   top: 0;
-  font-size: 7vh;
+  font-size: 60px;
 }
 
 /* Style the active link (or home/logo) */
