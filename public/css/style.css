@@ -19,22 +19,18 @@ html{
   background-color: transparent;
   font-weight: 800;
   border: 3px solid #414141;
-  font-size: 2vh;
+  font-size: 15px;
 }
 
 .language-deactive{
   background-color: transparent;
   border: none;
-  font-size: 2vh;
+  font-size: 15px;
 }
 
 .language-deactive:hover{
   background-color: #C7C7C7;
   transition: .5s;
-}
-
-.presentation-data, .presentation-data-treatment{
-  width: 150vh;
 }
 
 .topnav{
@@ -49,7 +45,7 @@ html{
 }
 
 .hr-divider, .hr-divider-crooked-left, .hr-divider-approach-section{
-  width: 150vh;
+  /* margin-left: -50px; */
 }
 
 .hr-divider-crooked-left{
@@ -58,17 +54,22 @@ html{
 
 
 .presentation-data, .home-video{
-  width: 150vh;
+  width: 1000px;
   margin-left: 200px;
   margin-right: 200px;
 }
 
 .presentation-data-home{
-  width: 150vh;
+  width: 1000px;
+  margin-left: 230px;
+  margin-right: 200px;
+}
+
+.presentation-data{
+  margin-left: 250px;
 }
 
 .hr-treatment{
-  width: 120vh;
   margin-top: -30px;
 }
 
@@ -90,16 +91,16 @@ nav{
 
 .navbar-items{
   display: flex;
-  width: 100vh;
+  width: 900px;
   justify-content: space-between;
-  margin-left: 360px;
+  margin-left: 300px;
   margin-right: 400px;
   padding-bottom: 25px;
 }
 
 .no-underlined-links{
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 15px;
   color: #414141;
 }
 
@@ -123,20 +124,19 @@ nav{
 
 .above-words, .below-words{
   color: white;
-  width: 150vh;
   letter-spacing: 5px;
 }
 
 .above-words{
-  font-size: 3vh;
+  font-size: 25px;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 120px;
   animation-duration: 1.5s;
 }
 
 .below-words{
-  font-size: 9vh;
-  margin-top: 350px;
+  font-size: 50px;
+  margin-top: 320px;
   animation-duration: 2.5s;
 }
 
@@ -150,22 +150,27 @@ nav{
 }
 
 .about-me-padding{
-  padding: 2vh;
+  padding: 20px;
   margin-top: -50px;
 }
 
 .about-me-text{
   font-size: medium;
-  width: 50vh;
+  width: 350px;
 }
 
 .my-approach-container{
-  width: 120vh;
-  margin-left: 280px;
+  width: 1000px;
+  margin-left: 230px;
+}
+
+.approach-img{
+  margin-left: 250px;
+  width: 1000px;
+  margin-top: 170px;
 }
 
 .my-approach-text{
-  width: 100vh;
   margin-left: 20px;
 }
 
@@ -176,8 +181,8 @@ nav{
 }
 
 .specializations-title{
-  margin-left: 180px;
-  font-size: 5vh;
+  margin-left: 230px;
+  font-size: 45px;
 }
 
 .div-helper{
@@ -185,16 +190,16 @@ nav{
 }
 
 .articles-container{
-  margin-right: 100px;
+  margin-left: 40px;
 }
 
 .articles {
-  width: 30vh;
+  width: 200px;
   display: inline-flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-left: 185px;
-  margin-bottom: 5vh
+  margin-bottom: 30px
 }
 
 .articles-titles{
@@ -220,30 +225,24 @@ nav{
 }
 
 .subtitle{
-  font-size: 5vh;
+  font-size: 45px;
 }
 
 .subtitle-my-approach{
-  margin-left: 295px;
+  margin-left: 250px;
 }
 
 .article-my-approach{
-  width: 50vh;
   margin-left: 200px;
   margin-right: 200px;
-}
-
-.my-approach-section{
-  width: 120vh;
 }
 
 .resources-title-container, .treatment-title-container{
-  height: 36vh;
+  height: 250px;
   background-color: #414141;
   margin-top: 150px;
-  width: 150vh;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
   display: flex;
 }
 
@@ -253,8 +252,8 @@ nav{
   margin-left: 50px;
   color: white;
   margin-top: 100px;
-  font-size: 5.5vh;
-  width: 70vh;
+  font-size: 40px;
+  width: 500px;
   animation-duration: 6s;
 }
 
@@ -271,7 +270,7 @@ nav{
 }
 
 .resources-section{
-  width: 120vh;
+  width: 900px;
   margin-left: 320px;
   margin-right: 400px;
   display: flex;
@@ -284,7 +283,8 @@ nav{
 }
 
 .treatment-article-agenda, .treatment-article-duration, .treatment-article-payment{
-  width: 120vh;
+  width: 900px;
+  margin-left: -100px;
 }
 
 .treatment-title-article, .resources-section-title{
@@ -298,16 +298,23 @@ nav{
 }
 
 .resources-section-article{
-  width: 60vh;
+  width: 400px;
+  padding: 20px;
 }
 
 .contact-me-container{
-  width: 175vh;
+  width: 800px;
+  margin-left: 240px;
 }
 
-.contact-title, .contact-title-my-approach{
-  margin-left: 200px;
-  font-size: xx-large;
+.contact-title{
+  margin-left: 230px;
+  font-size: 45px;
+}
+
+.contact-title-my-approach{
+  margin-left: 250px;
+  font-size: 45px;
 }
 
 .contact-logos{
@@ -326,17 +333,17 @@ nav{
 }
 
 .footer{
-  height: 15vh;
+  display: flex;
+  justify-content: center;
   background-color: #414141;
+  margin-left: -50px;
+  margin-top: 20px;
+  margin-right: -8px;
   margin-bottom: -10px;
-  margin-left: -10px;
-  margin-right: -6px;
-  margin-top: 50px;
+  padding: 20px;
 }
 
 .footer-text{
-  display: flex;
-  justify-content: center;
   color: #C7C7C7;
 }
 
@@ -344,6 +351,12 @@ nav{
   width: 400px;
   height: 500px;
 }
+
+.gray-color{
+  color: #414141;
+}
+
+
 
 
 
@@ -364,28 +377,19 @@ nav{
 @media only screen and (min-width: 992px) and (max-width: 1410px){
 
   .language-active, .language-deactive{
-    font-size: 3vh;
+    font-size: 25px;
   }
 
   .no-underlined-links{
-    font-size: 4vh;
+    font-size: 25px;
   }
 
   main, .menu-section{
-    margin-left: 250px; 
-    margin-right: 250px; 
-  }
-
-  .centered{
-    margin-left: 400px
+    margin-left: 50px; 
   }
 
   .therapy-type{
-    font-size: xx-large;
-  }
-
-  .personal-info{
-    font-size: x-large;
+    font-size: 35px;
   }
 
   .navbar-items{
@@ -397,23 +401,41 @@ nav{
     width: 100%;
   }
 
-  .home-video{
-    margin-top: 400px;
-    height: 700px;
+  .presentation-data, .home-video{
+    width: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
+  .presentation-data{
+    margin-left: 250px;
+  }
+
+  .hr-divider{
+    width: 1000px;
+  }
+
+  .home-video{
+    margin-top: 280px;
+  }
+
+  .presentation-data-home{
+    width: 1000px;
+  }
+  
+
   .above-words{
-    font-size: 8.5vh;
+    font-size: 30px;
     margin-top: 350px;
   }
 
   .below-words{
-    font-size: 10vh;
+    font-size: 40px;
     margin-top: 600px;
   }
 
   .about-me-container {
-    margin-left: 670px;
+    margin-left: 300px;
   }
 
   .about-me-text{
@@ -427,27 +449,27 @@ nav{
   }
 
   .read-more-button{
-    font-size: 3.5vh;
+    font-size: 30px;
   }
 
   .subtitle{
-    font-size: 7vh;
+    font-size: 45px;
   }
 
   .specializations-title {
-    font-size: 7vh;
+    font-size: 45px;
     width: 100%;
-    margin-left: 200px;
+    margin-left: 230px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 6vh;
+    font-size: 40px;
     margin-right: 330px;
   }
 
   .articles-container{
-    width: 100vh;
+    width: 900px;
   }
 
   .articles{
@@ -455,12 +477,12 @@ nav{
   }
 
   .div-helper-underline {
-    margin-left: -450px;    
+    margin-right: 700px;    
   }
 
   .contact-title {
-    font-size: 7vh;
-    margin-left: 190px;
+    font-size: 45px;
+    margin-left: 230px;
     width: 100%;
   }
 
@@ -470,17 +492,17 @@ nav{
   }
 
   .contact-me-container {
-    width: 100vh;
+    width: 900px;
     margin-left: 270px;
   }
 
   .contact-title-my-approach{
-    font-size: 7vh;
+    font-size: 45px;
     margin-left: 450px;
   }
 
   .contact-me-container-my-approach{
-    width: 100vh;
+    width: 900px;
     margin-left: 530px;
   }
 
@@ -498,15 +520,27 @@ nav{
   }
 
   .article-home-text{
-    font-size: xx-large;
+    font-size: 30px;
   }
 
   .contact-text{
-    font-size: 4vh;
+    font-size: 25px;
   }
 
   .footer{
-    width: 279vh;
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    padding: 20px;
+    width: 1560px;
+  }
+  
+  .footer-text{
+    color: #C7C7C7;
   }
 
   .hr-divider{
@@ -524,7 +558,7 @@ nav{
   }
 
   .treatment-title-article{
-    font-size: 6vh;
+    font-size: 45px;
     margin-top: 50px;
   }
 
@@ -537,15 +571,15 @@ nav{
   }
 
   .resources-section-title{
-    font-size: 6vh;
+    font-size: 30px;
   }
 
   .resources-links{
-    font-size: 4vh;
+    font-size: 25px;
   }
 
   .my-approach-container{
-    width: 150vh;
+    width: 900px;
     margin-left: 430px;
   }
 
@@ -563,7 +597,7 @@ nav{
   }
 
   .treatment-title, .resources-title{
-    font-size: 6vh;
+    font-size: 45px;
     margin-top: 150px;
   }
 
@@ -577,7 +611,7 @@ nav{
   }
 
   .resources-section-article {
-    width: 70vh;
+    width: 900px;
   }
 
   .approach-img{
@@ -587,7 +621,7 @@ nav{
 
   .resources-title{
     margin-top: 200px;
-    font-size: 7vh;
+    font-size: 40px;
   }
 
 }
@@ -612,7 +646,7 @@ nav{
   }
 
   .language-active, .language-deactive{
-    font-size: 4vh;
+    font-size: 45px;
   }
 
   .hr-divider-crooked-left{
@@ -836,7 +870,7 @@ nav{
 @media only screen and (min-width: 480px) and (max-width: 830px) {
 
   .language-active, .language-deactive{
-    font-size: 4vh;
+    font-size: 45px;
   }
 
   .no-underlined-links{
@@ -1076,7 +1110,7 @@ nav{
 @media only screen and (max-width: 480px) {
 
   .language-active, .language-deactive{
-    font-size: 4vh;
+    font-size: 45px;
   }
   
   .no-underlined-links{
@@ -1389,20 +1423,13 @@ nav{
 
 @media only screen and (min-width: 1390px) and (max-width: 1410px){
 
-  .above-words{
-    font-size: 4vh;
-  }
-
   .centered{
-    margin-left: 350px;
+    margin-left: 50px;
   }
 }
 
 @media only screen and (min-width: 1250px) and (max-width: 1390px){
 
-  .above-words{
-    font-size: 4vh;
-  }
 
   .centered{
    margin-left: 400px;
@@ -1412,9 +1439,6 @@ nav{
 
 @media only screen and (min-width: 1175px) and (max-width: 1250px){
 
-  .above-words{
-    font-size: 4vh;
-  }
 
   .centered{
    margin-left: 450px;
@@ -1423,10 +1447,6 @@ nav{
 
 @media only screen and (min-width: 1050px) and (max-width: 1175px){
 
-  .above-words{
-    font-size: 4vh;
-  }
-
   .centered{
    margin-left: 500px;
   }
@@ -1434,9 +1454,6 @@ nav{
 
 @media only screen and (min-width: 930px) and (max-width: 1050px){
 
-  .above-words{
-    font-size: 4vh;
-  }
 
   .centered{
    margin-left: 550px;
@@ -1445,10 +1462,6 @@ nav{
 
 @media only screen and (min-width: 840px) and (max-width: 930px){
 
-  .above-words{
-    font-size: 4vh;
-  }
-
   .centered{
    margin-left: 600px;
   }
@@ -1456,9 +1469,6 @@ nav{
 
 @media only screen and (min-width: 831px) and (max-width: 840px){
 
-  .above-words{
-    font-size: 4vh;
-  }
 
   .centered{
    margin-left: 650px;
@@ -1467,9 +1477,6 @@ nav{
 
 @media only screen and (min-width: 725px) and (max-width: 831px){
 
-  .above-words{
-    font-size: 4vh;
-  }
 
   .centered{
    margin-left: 450px;
@@ -1478,10 +1485,6 @@ nav{
 
 @media only screen and (min-width: 640px) and (max-width: 725px){
 
-  .above-words{
-    font-size: 6vh;
-  }
-
   .centered{
    margin-left: 500px;
   }
@@ -1489,9 +1492,6 @@ nav{
 
 @media only screen and (min-width: 550px) and (max-width: 640px){
 
-  .above-words{
-    font-size: 6vh;
-  }
 
   .centered{
    margin-left: 550px;
@@ -1500,20 +1500,12 @@ nav{
 
 @media only screen and (min-width: 480px) and (max-width: 550px){
 
-  .above-words{
-    font-size: 6vh;
-  }
-
   .centered{
    margin-left: 600px;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 480px){
-
-  .above-words{
-    font-size: 6vh;
-  }
 
   .centered{
    margin-left: 550px;
