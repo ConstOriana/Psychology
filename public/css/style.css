@@ -411,12 +411,16 @@ nav{
     margin-left: 250px;
   }
 
+  .hr-helper{
+    margin-left: 300px;
+  }
+
   .hr-divider{
     width: 1000px;
   }
 
   .home-video{
-    margin-top: 280px;
+    margin-top: 200px;
   }
 
   .presentation-data-home{
@@ -426,16 +430,19 @@ nav{
 
   .above-words{
     font-size: 30px;
-    margin-top: 350px;
+    margin-top: 250px;
   }
 
   .below-words{
     font-size: 40px;
-    margin-top: 600px;
+    margin-top: 400px;
   }
 
   .about-me-container {
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-right: 700px;
   }
 
   .about-me-text{
@@ -493,17 +500,17 @@ nav{
 
   .contact-me-container {
     width: 900px;
-    margin-left: 270px;
+    margin-left: 220px;
   }
 
   .contact-title-my-approach{
     font-size: 45px;
-    margin-left: 450px;
+    margin-left: 300px;
   }
 
   .contact-me-container-my-approach{
     width: 900px;
-    margin-left: 530px;
+    margin-left: 290px;
   }
 
   .contact-logos{
@@ -534,7 +541,7 @@ nav{
     margin-left: -50px;
     margin-top: 20px;
     margin-right: -8px;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     padding: 20px;
     width: 1560px;
   }
@@ -545,7 +552,7 @@ nav{
 
   .hr-divider{
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .resources-title-container{
@@ -554,16 +561,18 @@ nav{
   }
 
   .treatment-section{
-    margin-left: 770px;
+    display: flex;
+    justify-content: center;
+    margin-left: 390px;
   }
 
   .treatment-title-article{
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: xx-large;
+    font-size: 30px;
   }
 
   .presentation-data-treatment{
@@ -571,7 +580,7 @@ nav{
   }
 
   .resources-section-title{
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .resources-links{
@@ -579,17 +588,17 @@ nav{
   }
 
   .my-approach-container{
-    width: 900px;
-    margin-left: 430px;
+    width: 1000px;
+    margin-left: 280px;
   }
 
   .subtitle-my-approach{
-    margin-left: 450px;
+    margin-left: 300px;
     width: 100%;
   }
 
   .my-approach-text{
-    font-size: xx-large;
+    font-size: 30px;
   }
 
   .hr-divider-approach-section{
@@ -598,16 +607,18 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 45px;
-    margin-top: 150px;
+    margin-top: 90px;
+    width: 750px;
   }
 
   .treatment-title-container, .resources-title-container{
-    margin-left: 450px;
-    height: 500px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 350px;
   }
 
   .resources-section {
-    margin-left: 250px;
+    margin-left: 280px;
   }
 
   .resources-section-article {
@@ -615,12 +626,12 @@ nav{
   }
 
   .approach-img{
-    margin-left: 450px;
+    margin-left: 300px;
     height: 450px;
   }
 
   .resources-title{
-    margin-top: 200px;
+    margin-top: 180px;
     font-size: 40px;
   }
 
