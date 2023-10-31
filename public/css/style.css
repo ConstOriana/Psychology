@@ -1233,7 +1233,8 @@ nav{
   }
 
   .home-video{
-    margin-top: 250px;
+    margin-top: 270px;
+    height: 650px;
   }
 
   .presentation-data-home{
@@ -1251,41 +1252,31 @@ nav{
     margin-top: 400px;
   }
 
-  .about-me-container {
-    display: flex;
-    justify-content: center;
-    margin-left: 700px;
-    margin-right: 700px;
-  }
-
-  .bottomMenu{
-    width: 600px;
-    height: 800px;
-    margin-top: 300px;
-  }
-
   .read-more-button{
-    font-size: 45px;
+    font-size: 70px;
+    margin-left: 30px;
   }
 
   .subtitle{
-    font-size: 70px;
+    font-size: 90px;
+    margin-left: 60px;
   }
 
   .specializations-title {
-    font-size: 70px;
-    width: 150%;
-    margin-left: 230px;
+    font-size: 90px;
+    width: 200%;
+    margin-left: 220px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 60px;
+    font-size: 80px;
     margin-right: 330px;
   }
 
   .articles-container{
     width: 900px;
+    margin-left: 40px;
   }
 
   .articles{
@@ -1297,9 +1288,9 @@ nav{
   }
 
   .contact-title {
-    font-size: 70px;
+    font-size: 90px;
     margin-left: 230px;
-    width: 100%;
+    width: 150%;
   }
 
   .contact-img{
@@ -1313,7 +1304,7 @@ nav{
   }
 
   .contact-title-my-approach{
-    font-size: 70px;
+    font-size: 90px;
     margin-left: 300px;
     width: 100%;
   }
@@ -1337,11 +1328,11 @@ nav{
   }
 
   .article-home-text{
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .contact-text{
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .footer{
@@ -1377,12 +1368,12 @@ nav{
   }
 
   .treatment-title-article{
-    font-size: 60px;
+    font-size: 80px;
     margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: 50px;
+    font-size: 70px;
     width: 950px;
   }
 
@@ -1391,11 +1382,11 @@ nav{
   }
 
   .resources-section-title{
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .resources-links{
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .my-approach-container{
@@ -1407,13 +1398,13 @@ nav{
   }
 
   .subtitle-my-approach{
-    font-size: 70px;
+    font-size: 90px;
     margin-left: 300px;
-    width: 100%;
+    width: 150%;
   }
 
   .my-approach-text{
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .hr-divider-approach-section{
@@ -1421,7 +1412,7 @@ nav{
   }
 
   .treatment-title, .resources-title{
-    font-size: 60px;
+    font-size: 90px;
     margin-top: 90px;
     width: 750px;
   }
@@ -1429,7 +1420,11 @@ nav{
   .treatment-title-container, .resources-title-container{
     margin-left: 300px;
     width: 1000px;
-    height: 420px;
+    height: 850px;
+  }
+
+  .resources-title-container{
+    height: 330px;
   }
 
   .resources-section {
@@ -1442,20 +1437,37 @@ nav{
 
   .approach-img{
     margin-left: 300px;
-    height: 450px;
+    height: 550px;
   }
 
   .resources-title{
-    margin-top: 180px;
-    font-size: 70px;
+    margin-top: 150px;
+    font-size: 90px;
+  }
+
+  .bottomMenu{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 1300px;
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+
+  .about-me-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 700px;
   }
 
   .about-me-text{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 40px;
-    width: 500px;
+    font-size: 70px;
+    width: 1000px; 
+    margin-left: 70px;
   }
 
   .second{
@@ -1469,6 +1481,7 @@ nav{
   position: relative;
   display: block;
   margin-bottom: -100px;
+  margin-left: 120px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
