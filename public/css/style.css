@@ -643,91 +643,107 @@ nav{
 
 @media only screen and (min-width: 830px) and (max-width: 992px) {
 
-  .no-underlined-links{
-    font-size: 4vh;
+  .language-active, .language-deactive{
+    font-size: 25px;
   }
 
-  .navbar-items{
-    width: 60%
+  .no-underlined-links{
+    font-size: 25px;
   }
 
   main, .menu-section{
-    margin-left: 200px;
-    margin-right: 250px;
-  }
-
-  .language-active, .language-deactive{
-    font-size: 45px;
-  }
-
-  .hr-divider-crooked-left{
-    margin-left: 300px
+    margin-left: 50px; 
   }
 
   .therapy-type{
-    font-size: 4vh;
+    font-size: 35px;
   }
 
-  .personal-info{
-    font-size: x-large;
+  .navbar-items{
+    width: 60%;
+    margin-left: 300px;
   }
 
   nav{
     width: 100%;
-    margin-left: -100px;
+  }
+
+  .presentation-data, .home-video{
+    width: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .presentation-data{
+    margin-left: 250px;
+  }
+
+  .hr-helper{
+    margin-left: 300px;
+  }
+
+  .hr-divider{
+    width: 1000px;
   }
 
   .home-video{
-    margin-top: 400px;
-    height: 700px;
+    margin-top: 200px;
   }
 
+  .presentation-data-home{
+    width: 1000px;
+  }
+  
+
   .above-words{
-    font-size: 8.5vh;
-    margin-top: 350px;
+    font-size: 30px;
+    margin-top: 250px;
   }
 
   .below-words{
-    font-size: 10vh;
-    margin-top: 600px;
-  }
-
-  .about-me-container {
-    margin-left: 650px;
+    font-size: 40px;
+    margin-top: 400px;
   }
 
   .second{
     display: none;
   }
 
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-right: 700px;
+  }
+
   .bottomMenu{
     width: 600px;
     height: 800px;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .read-more-button{
-    font-size: 5vh;
+    font-size: 30px;
   }
 
   .subtitle{
-    font-size: 8vh;
+    font-size: 50px;
   }
 
   .specializations-title {
-    font-size: 7vh;
+    font-size: 50px;
     width: 150%;
-    margin-left: 200px;
+    margin-left: 230px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 7vh;
+    font-size: 45px;
     margin-right: 330px;
   }
 
   .articles-container{
-    width: 100vh;
+    width: 900px;
   }
 
   .articles{
@@ -735,12 +751,12 @@ nav{
   }
 
   .div-helper-underline {
-    margin-left: -450px;    
+    margin-right: 700px;    
   }
 
   .contact-title {
-    font-size: 8vh;
-    margin-left: 190px;
+    font-size: 50px;
+    margin-left: 230px;
     width: 100%;
   }
 
@@ -750,18 +766,18 @@ nav{
   }
 
   .contact-me-container {
-    width: 100vh;
-    margin-left: 270px;
+    width: 900px;
+    margin-left: 280px;
   }
 
   .contact-title-my-approach{
-    font-size: 7vh;
-    margin-left: 450px;
+    font-size: 50px;
+    margin-left: 300px;
   }
 
   .contact-me-container-my-approach{
-    width: 100vh;
-    margin-left: 530px;
+    width: 900px;
+    margin-left: 350px;
   }
 
   .contact-logos{
@@ -778,20 +794,32 @@ nav{
   }
 
   .article-home-text{
-    font-size: 5vh;
+    font-size: 35px;
   }
 
   .contact-text{
-    font-size: 4vh;
+    font-size: 35px;
   }
 
   .footer{
-    width: 279vh;
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: -15px;
+    padding: 20px;
+    width: 1560px;
+  }
+  
+  .footer-text{
+    color: #C7C7C7;
   }
 
   .hr-divider{
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .resources-title-container{
@@ -800,173 +828,189 @@ nav{
   }
 
   .treatment-section{
-    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
   }
 
   .treatment-title-article{
-    font-size: 6vh;
+    font-size: 45px;
     margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: xx-large;
+    font-size: 35px;
+    width: 800px;
   }
 
   .presentation-data-treatment{
-    margin-left: 400px;
+    margin-left: 450px;
   }
 
   .resources-section-title{
-    font-size: 6vh;
+    font-size: 50px;
   }
 
   .resources-links{
-    font-size: 4vh;
+    font-size: 35px;
   }
 
   .my-approach-container{
-    width: 150vh;
-    margin-left: 380px;
+    width: 1000px;
+    margin-left: 280px;
   }
 
   .subtitle-my-approach{
-    margin-left: 400px;
+    font-size: 50px;
+    margin-left: 300px;
     width: 100%;
   }
 
   .my-approach-text{
-    font-size: xx-large;
+    font-size: 35px;
   }
 
   .hr-divider-approach-section{
-    margin-left: 400px;
+    margin-left: 450px;
   }
 
   .treatment-title, .resources-title{
-    font-size: 6vh;
-    margin-top: 160px;
+    font-size: 50px;
+    margin-top: 90px;
+    width: 750px;
   }
 
   .treatment-title-container, .resources-title-container{
-    margin-left: 400px;
-    height: 500px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 370px;
   }
 
   .resources-section {
-    margin-left: 250px;
+    margin-left: 280px;
   }
 
   .resources-section-article {
-    width: 70vh;
+    width: 900px;
   }
 
   .approach-img{
-    margin-left: 400px;
+    margin-left: 300px;
     height: 450px;
   }
 
   .resources-title{
-    margin-top: 200px;
-    font-size: 7vh;
+    margin-top: 180px;
+    font-size: 50px;
   }
 
   .about-me-text{
-    font-size: 4.5vh;
+    font-size: 30px;
   }
-
  
 }
 
 /* Mini Tablet */
 @media only screen and (min-width: 480px) and (max-width: 830px) {
 
+ 
   .language-active, .language-deactive{
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .no-underlined-links{
-    font-size: 4vh;
-  }
-
-  .navbar-items{
-    width: 60%
+    font-size: 35px;
   }
 
   main, .menu-section{
-    margin-left: 0px;
-    margin-right: 90px;
-  }
-  
-  .hr-divider-crooked-left{
-    margin-left: 310px
+    margin-left: 50px; 
   }
 
   .therapy-type{
-    font-size: 5vh;
+    font-size: 50px;
   }
 
-  .personal-info{
-    font-size: 4.5vh;
-    margin-left: 100px;
+  .navbar-items{
+    width: 65%;
+    margin-left: 250px;
   }
 
   nav{
     width: 100%;
-    margin-left: -115px;
+  }
+
+  .presentation-data, .home-video{
+    width: 1000px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .presentation-data{
+    margin-left: 250px;
+  }
+
+  .hr-helper{
+    margin-left: 300px;
+  }
+
+  .hr-divider{
+    width: 1000px;
   }
 
   .home-video{
-    margin-top: 400px;
-    height: 700px;
+    margin-top: 250px;
   }
 
+  .presentation-data-home{
+    width: 1000px;
+  }
+  
+
   .above-words{
-    font-size: 8.5vh;
-    margin-top: 350px;
+    font-size: 30px;
+    margin-top: 250px;
   }
 
   .below-words{
-    font-size: 10vh;
-    margin-top: 600px;
+    font-size: 40px;
+    margin-top: 400px;
   }
 
   .about-me-container {
-    margin-left: 670px;
-  }
-
-  .second{
-    display: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-right: 700px;
   }
 
   .bottomMenu{
     width: 600px;
     height: 800px;
-    margin-top: 130px;
+    margin-top: 300px;
   }
 
   .read-more-button{
-    font-size: 5vh;
+    font-size: 45px;
   }
 
   .subtitle{
-    font-size: 8vh;
+    font-size: 70px;
   }
 
   .specializations-title {
-    font-size: 7vh;
-    width: 200%;
-    margin-left: 200px;
+    font-size: 70px;
+    width: 150%;
+    margin-left: 230px;
   }
 
   .articles-titles{
     width: 100%;
-    font-size: 6vh;
+    font-size: 60px;
     margin-right: 330px;
   }
 
   .articles-container{
-    width: 100vh;
-    margin-left: 20px;
+    width: 900px;
   }
 
   .articles{
@@ -974,13 +1018,13 @@ nav{
   }
 
   .div-helper-underline {
-    margin-left: -450px;    
+    margin-right: 700px;    
   }
 
   .contact-title {
-    font-size: 8vh;
-    margin-left: 190px;
-    width: 150%;
+    font-size: 70px;
+    margin-left: 230px;
+    width: 100%;
   }
 
   .contact-img{
@@ -989,19 +1033,19 @@ nav{
   }
 
   .contact-me-container {
-    width: 100vh;
-    margin-left: 350px;
+    width: 900px;
+    margin-left: 280px;
   }
 
   .contact-title-my-approach{
-    font-size: 7vh;
-    margin-left: 250px;
+    font-size: 70px;
+    margin-left: 300px;
     width: 100%;
   }
 
   .contact-me-container-my-approach{
-    width: 100vh;
-    margin-left: 400px;
+    width: 900px;
+    margin-left: 350px;
   }
 
   .contact-logos{
@@ -1009,8 +1053,8 @@ nav{
   }
 
   .contact-logos-imgs{
-    width: 200px;
-    height: 200px;    
+    width: 100px;
+    height: 100px;    
   }
 
   .massimo-font{
@@ -1018,20 +1062,32 @@ nav{
   }
 
   .article-home-text{
-    font-size: 5vh;
+    font-size: 50px;
   }
 
   .contact-text{
-    font-size: 5vh;
+    font-size: 35px;
   }
 
   .footer{
-    width: 220vh;
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-right: -8px;
+    margin-bottom: -15px;
+    padding: 20px;
+    width: 1560px;
+  }
+  
+  .footer-text{
+    color: #C7C7C7;
   }
 
   .hr-divider{
     margin-right: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .resources-title-container{
@@ -1040,80 +1096,96 @@ nav{
   }
 
   .treatment-section{
-    margin-left: 670px;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
   }
 
   .treatment-title-article{
-    font-size: 8vh;
-    margin-top: 40px;
+    font-size: 60px;
+    margin-top: 50px;
   }
 
   .treatment-text{
-    font-size: 5vh;
+    font-size: 50px;
+    width: 950px;
   }
 
   .presentation-data-treatment{
-    margin-left: 200px;
+    margin-left: 450px;
   }
 
   .resources-section-title{
-    font-size: 8vh;
+    font-size: 60px;
   }
 
   .resources-links{
-    font-size: 5vh;
+    font-size: 50px;
   }
 
   .my-approach-container{
-    width: 150vh;
-    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 280px;
   }
 
   .subtitle-my-approach{
-    margin-left: 200px;
+    font-size: 70px;
+    margin-left: 300px;
     width: 100%;
   }
 
   .my-approach-text{
-    font-size: 5vh;
+    font-size: 50px;
   }
 
   .hr-divider-approach-section{
-    margin-left: 200px;
+    margin-left: 450px;
   }
 
   .treatment-title, .resources-title{
-    font-size: 6.5vh;
-    margin-top: 150px;
-    width: 50%;
+    font-size: 60px;
+    margin-top: 90px;
+    width: 750px;
   }
 
   .treatment-title-container, .resources-title-container{
-    margin-left: 200px;
-    height: 520px;
+    margin-left: 300px;
+    width: 1000px;
+    height: 420px;
   }
 
   .resources-section {
-    margin-left: 20px;
+    margin-left: 280px;
   }
 
   .resources-section-article {
-    width: 70vh;
+    width: 900px;
   }
 
   .approach-img{
-    margin-left: 200px;
+    margin-left: 300px;
     height: 450px;
   }
 
   .resources-title{
-    margin-top: 200px;
-    font-size: 7vh;
+    margin-top: 180px;
+    font-size: 70px;
   }
 
   .about-me-text{
-    font-size: 4.5vh;
-  }  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    width: 500px;
+  }
+
+  .second{
+    display: none;
+  }
 
 }
 
