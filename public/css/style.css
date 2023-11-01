@@ -1280,7 +1280,7 @@ nav{
   .contact-title {
     font-size: 90px;
     margin-left: 230px;
-    width: 150%;
+    width: 200%;
   }
 
   .contact-img{
@@ -1296,7 +1296,7 @@ nav{
   .contact-title-my-approach{
     font-size: 90px;
     margin-left: 300px;
-    width: 100%;
+    width: 200%;
   }
 
   .contact-me-container-my-approach{
@@ -1338,6 +1338,7 @@ nav{
   }
   
   .footer-text{
+    font-size: 45px;
     color: #C7C7C7;
   }
 
@@ -1591,8 +1592,9 @@ nav{
 @media only screen and (min-width: 840px) and (max-width: 930px){
 
   .above-words, .below-words{
-    width: 250%;
+    width: 300%;
   }
+
 
   .centered{
    margin-left: 80px;
@@ -1602,7 +1604,7 @@ nav{
 @media only screen and (min-width: 831px) and (max-width: 840px){
 
   .above-words, .below-words{
-    width: 250%;
+    width: 300%;
   }
 
 
@@ -1614,45 +1616,33 @@ nav{
 @media only screen and (min-width: 725px) and (max-width: 831px){
 
   .above-words, .below-words{
-    width: 250%;
+    width: 350%;
   }
 
   .below-words{
     margin-left: -25px;
-  }
-
-  .centered{
-   margin-left: 250px;
   }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 725px){
 
   .above-words, .below-words{
-    width: 250%;
-  }
-
-  .below-words{
-    margin-left: -25px;
+    width: 350%;
   }
 
   .centered{
-   margin-left: 300px;
+   margin-left: 200px;
   }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 640px){
 
   .above-words, .below-words{
-    width: 250%;
-  }
-
-  .below-words{
-    margin-left: -25px;
+    width: 350%;
   }
 
   .centered{
-   margin-left: 300px;
+   margin-left: 200px;
   }
 }
 
@@ -1663,27 +1653,28 @@ nav{
   }
 
   .above-words, .below-words{
-    width: 250%;
+    width: 350%;
   }
 
   .below-words{
-    margin-left: -25px;
+    margin-left: 50px;
   }
 
   .centered{
-   margin-left: 350px;
+   margin-left: 200px;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 480px){
 
   .above-words{
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 150px;
+    margin-left: -60px;
   }
 
   .above-words, .below-words{
-    width: 250%;
+    width: 300%;
   }
 
   .below-words{
@@ -1692,7 +1683,7 @@ nav{
   }
 
   .centered{
-   margin-left: 350px;
+   margin-left: 330px;
   }
 
 }
