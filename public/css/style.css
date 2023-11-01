@@ -1404,18 +1404,18 @@ nav{
 
   .treatment-title, .resources-title{
     font-size: 90px;
-    margin-top: 90px;
+    margin-top: 150px;
     width: 750px;
   }
 
   .treatment-title-container, .resources-title-container{
     margin-left: 300px;
     width: 1000px;
-    height: 850px;
+    height: 950px;
   }
 
   .resources-title-container{
-    height: 330px;
+    height: 350px;
   }
 
   .resources-section {
@@ -1427,12 +1427,13 @@ nav{
   }
 
   .approach-img{
+    margin-top: 300px;
     margin-left: 300px;
     height: 550px;
   }
 
   .resources-title{
-    margin-top: 150px;
+    margin-top: 180px;
     font-size: 90px;
   }
 
